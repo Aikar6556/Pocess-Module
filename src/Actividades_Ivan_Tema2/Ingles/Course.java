@@ -1,8 +1,6 @@
 package Actividades_Ivan_Tema2.Ingles;
 
-import java.util.Arrays;
-
-public class OnlineCourse {
+public class Course {
 
     private String name;
     private String ID;
@@ -70,5 +68,12 @@ public class OnlineCourse {
     @Override
     public boolean equals(Object obj) {
         return super.equals(obj);
+    }
+
+    public Course(String name, String ID, int duration, String teacher) {
+        this.name = name;
+        this.ID = ID;
+        this.duration = duration;
+        this.teacher = teacher;
     }
 }

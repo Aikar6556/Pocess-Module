@@ -17,4 +17,18 @@ public enum Specialization {
     public int getHoras() {
         return horas;
     }
+
+    @Override
+    public String toString() {
+        return "Specialization{" +
+                "horas=" + horas +
+                '}';
+    }
+
+
+
+
+
+
+
 }
