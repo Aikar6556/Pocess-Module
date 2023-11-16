@@ -69,4 +69,11 @@ public class Course {
     public boolean equals(Object obj) {
         return super.equals(obj);
     }
+
+    public Course(String name, String ID, int duration, String teacher) {
+        this.name = name;
+        this.ID = ID;
+        this.duration = duration;
+        this.teacher = teacher;
+    }
 }

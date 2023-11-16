@@ -13,6 +13,7 @@ public class AdminCourse extends Course {
     }
 
     public AdminCourse(ArrayList<String> documentos) {
+        super("nombre","123",450,"Manolo");
         this.documentos = documentos;
     }
 
@@ -35,5 +36,13 @@ public class AdminCourse extends Course {
     @Override
     protected Object clone() throws CloneNotSupportedException {
         return super.clone();
+    }
+
+    public ArrayList<String> getDocumentos() {
+        return documentos;
+    }
+
+    public void setDocumentos(ArrayList<String> documentos) {
+        this.documentos = documentos;
     }
 }

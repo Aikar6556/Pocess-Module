@@ -7,19 +7,16 @@ public class BusinessCourse extends Course {
     private int intership;
 
 
-
     public int getIntership() {
         return intership;
     }
 
     public void setIntership(int intership) {
-
-        if (intership>15) {
-            this.intership = intership + 30;
-        }
+        this.intership = intership;
     }
 
     public BusinessCourse(int intership) {
+        super("Bussines","132456",10,"Pepe");
         this.intership = intership;
     }
 
@@ -44,4 +41,6 @@ public class BusinessCourse extends Course {
     protected Object clone() throws CloneNotSupportedException {
         return super.clone();
     }
+
+
 }

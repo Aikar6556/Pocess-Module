@@ -7,6 +7,7 @@ public class ITCourse extends Course {
     Specialization specialization;
 
     public ITCourse(Specialization specialization) {
+        super("HolaCourse","11234",500,"MaríaOfThe O");
         this.specialization = specialization;
     }
 
@@ -29,5 +30,13 @@ public class ITCourse extends Course {
         return "ITCourse{" +
                 "specialization=" + specialization +
                 '}';
+    }
+
+    public Specialization getSpecialization() {
+        return specialization;
+    }
+
+    public void setSpecialization(Specialization specialization) {
+        this.specialization = specialization;
     }
 }
