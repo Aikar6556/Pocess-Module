@@ -1,8 +1,6 @@
 package Actividades_Ivan_Tema2.Ingles;
 
-import java.util.Arrays;
-
-public class OnlineCourse {
+public class Course {
 
     private String name;
     private String ID;
